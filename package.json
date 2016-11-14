@@ -4,6 +4,7 @@
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.example.js",
     "test": "mocha src/index.test.js -w",
     "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js"
   },
@@ -21,8 +22,8 @@
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
-    "chai": "3.5.0",
-    "istanbul": "0.4.2",
-    "mocha": "2.4.5"
+    "chai": "*",
+    "istanbul": "*",
+    "mocha": "*"
   }
 }
